@@ -18,7 +18,7 @@ export default async function getGifRecipe(recipe) {
     };
   }
 
-  if (res.data.data.results.length === 0)
+  if (!res.data.data)
     return {
       error: 'No gif found based on your search',
     };
