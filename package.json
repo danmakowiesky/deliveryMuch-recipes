@@ -1,0 +1,12 @@
+{
+  "name": "deliveryMuch-recipes",
+  "version": "1.0.0",
+  "description": "Projeto do desafio proposto pela Delivery Much para dev",
+  "main": "index.js",
+  "repository": "https://github.com/danmakowiesky/deliveryMuch-recipes.git",
+  "author": "danielmakowiesky <dvm1993@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
