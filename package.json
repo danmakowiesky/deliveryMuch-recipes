@@ -6,7 +6,14 @@
   "repository": "https://github.com/danmakowiesky/deliveryMuch-recipes.git",
   "author": "danielmakowiesky <dvm1993@hotmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "sucrase": "^3.15.0"
   }
 }
