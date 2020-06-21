@@ -25,12 +25,8 @@ class RecipeController {
       const getGif = await getGifRecipe(recipes.title);
       recipes[i].gif = getGif;
     }
-    const objReturnRecipes = {
-      keywords: ingredients,
-      recipes,
-    };
 
-    return res.status(200).send(objReturnRecipes);
+    return res.status(200).send({ keywords: ingredients, recipes });
   }
 }
 
