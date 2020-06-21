@@ -4,7 +4,7 @@
  */
 
 import request from 'supertest';
-import app from '../../src/app';
+import app from '../src/app';
 
 describe('get recipes', () => {
   it('Should return status 400 if the user enters without ingredients', async () => {
